@@ -3,7 +3,7 @@
  * Plugin Name: Gestión de Mascotas y Carrito Personalizado
  * Description: Plugin personalizado para gestionar mascotas y añadir productos al carrito según cálculos.
  * Version: 1.0
- * Author: Juan - Rotundo Grupo Creativo
+ * Author: Juan Riola Horiuko - Rotundo Grupo Creativo
  */
 
 // Aquí va la función para encolar los scripts y estilos
