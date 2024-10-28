@@ -24,7 +24,7 @@ Configura las plantillas de Elementor y las recomendaciones de productos de WooC
 
 Ve a la configuración del plugin en el administrador de WordPress para configurar los perfiles y cálculos.
 
-Usa el shortcode [formulario_mascota] para mostrar el formulario de datos y usa el shortcode [mostrar_mascotas_usuario] para mostrar los perfiles de mascotas en el frontend. 
+Usa el shortcode <b>[formulario_mascota]</b> para mostrar el formulario de datos y usa el shortcode <b>[mostrar_mascotas_usuario]</b> para mostrar los perfiles de mascotas en el frontend. 
 
 Personaliza las plantillas de Elementor y los productos de WooCommerce para que coincidan con los resultados de cálculo, mejorando así la experiencia del usuario.
 
