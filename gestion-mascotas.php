@@ -142,17 +142,28 @@ function mostrar_formulario_mascota() {
 
 <div id="step-5" class="step" style="display:none;">
 
+	 <h3>Categoria de tu mascota:</h3><div id="resultado-categoria"></div>
+
+	 <h3>Alimento recomendado:</h3><div id="resultado-gramos"></div>
+
 	 <button type="button" id="calcularButton">Calcular</button>
 
+</div>
 
+<div id="step-6" class="step" style="display:none;">
 
-	<div id="resultado-categoria"></div>
+<p>Perfecto, ya lo tenemos todo. Antes de continuar, ¿te gustaria suscribirte a nuestra mensualidad? recibe un 10% de descuento</p>
+<label>
+    <input type="checkbox" id="descuentoCheckbox">
+    Sí, suscribirme
+</label>
 
-	<div id="resultado-gramos"></div>
+</div>
 
-	<div id="resultado-recomendacion" style="display: none;"></div>
+<div id="step-7" class="step" style="display:none;">
 
-	<a id="redirigir-carrito" href="/cart" style="display:none;">Ir al carrito</a>
+<p>Perfecto, ya lo tenemos todo. Guarda los datos de la mascota y te redirigeiremos a los productos recomendados</p>
+<button id="enviarButton" style="display: none;">Enviar</button>
 
 </div>
 
@@ -499,3 +510,4 @@ function prevenir_duplicado_en_carrito($passed, $product_id, $quantity) {
     return $passed; // Permitir que el producto se añada si no está en el carrito
 
 }
+
